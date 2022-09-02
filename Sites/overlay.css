@@ -1,0 +1,70 @@
+/* 
+  
+body{
+    /* margin: auto; */
+    /* padding: auto; */
+    background-color:white;
+    display: inline;
+} */
+
+.test{
+    display: flex;
+    /* justify-content: space-between; */
+    /* background: url('th.jpg') no-repeat ;
+    background-size: cover;
+    align-items: center; */
+    /* padding: 10px; */
+    font-family: "Montserrat",sans-serif;
+    /* word-spacing:4px ; */
+    font-size:20px;
+    top: 0;
+    margin-top: 0;
+}
+
+
+
+.titre{
+    font-family:  Indie Flower;
+    font-size: 100;
+    color: rgb(15, 18, 21);
+    margin-top: 5em;
+    margin-left: 6em;
+    letter-spacing: 7px;
+    border:0;
+
+} 
+
+
+.navlinks-li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    color: rgb(5, 10, 14);
+    /* justify-content:space-around; */
+
+}
+.navlinks-a {
+    text-decoration: none;
+    font-weight: bold;
+    font-size:14px;
+    display: inline;
+    color: rgb(255, 240, 246);
+    /* justify-content:space-between; */
+
+}*{
+    /* margin:0; */
+    scroll-behavior: smooth;
+    
+    }
+    
+    
+    :root{
+        --first:hsla(198, 44%, 11%,0.9);
+        --sec:hsla(195, 35%, 19%,0.9);
+        --third:hsla(198, 39%, 28%,0.9);
+    }
+    body
+    { background:
+        linear-gradient(to right, var(--first), var(--sec),var(--third) ),
+        url('th.jpg') no-repeat  fixed ; 
+        background-size: 100% 25% ;}

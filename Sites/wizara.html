@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wizara</title>
+</head>
+<style>
+    .container{
+        max-width: 1400px;
+        margin: auto;
+    }
+    body{
+        margin: 0;
+    }
+.imglogo{
+  float:left;
+  width: 50px;
+  height: 46px;
+}
+.navlinks{
+    display:inline ;
+    justify-content:space-around;
+    width:30%;
+    text-transform:Uppercase;
+    margin-left: 25px;
+    font-style: Trebuchet  (sans-serif);
+
+}
+.navlinks li {
+    text-decoration: none;
+    list-style: none;
+   
+
+}
+.navlinks a {
+    text-decoration: none;
+    font-weight: bold;
+    color: aliceblue;
+    font-size:14px;
+
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+background: url('./virus.jpg') no-repeat;
+padding:12px;
+position:fixed;
+top:0;
+width: 97%;
+}
+.sfer{
+background-color: rgb(233, 199, 10);
+height:200px;
+text-align:center;
+padding:15px;
+margin-top:73px;
+line-height: 1.8em;
+
+
+}
+.zrek{
+    color: rgb(23, 125, 172);
+    text-align:center;
+    width: 20em;
+    margin-left: auto;
+  margin-right: auto;
+  line-height: 1.8em;
+ 
+    
+    
+}
+.flex{
+    display: flex;
+    padding-left:5rem;
+
+    margin: auto;
+}
+.block{
+    display: block;
+    text-align:center;
+    margin-top: 20px;
+
+}
+.A{
+    margin:0 ;
+}
+.button-6 {
+  align-items: center;
+  background-color: #2154d6;
+  border: 1px solid rgba(120, 78, 218, 0.1);
+  border-radius:0px;
+  box-shadow: rgba(0, 0, 0, 1) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: rgba(251, 248, 248, 0.85);
+  cursor: pointer;
+  display: inline;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 2.25;
+  margin: 15px;
+  min-height: 3rem;
+  padding: calc(.1075rem - 1px) calc(10rem - 10px);
+  position: relative;
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+
+.button-6:hover,
+.button-6:focus {
+  border-color: rgb(16, 15, 15);
+  box-shadow: rgb(14, 14, 15) 0 4px 12px;
+  color: rgba(9, 9, 9, 0.65);
+}
+
+.button-6:active {
+  background-color: #3585c3;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgb(23, 157, 70) 0 2px 4px;
+  color: rgb(81, 23, 226);
+  
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr) ;
+  grid-gap: 10px;
+  background-color: #fff;
+  text-align:center;
+  margin: 0 auto;
+  align-items: center;
+  padding-right: 3em;
+}
+
+.box {
+  color: rgb(25, 13, 13);
+  border-radius: 5px;
+  
+}
+.boxe{
+  color: rgb(25, 13, 13);
+  border-radius: 5px;
+  margin-right: 10px;
+  
+}
+.boxd{
+  color: rgb(25, 13, 13);
+  border-radius: 5px;
+  margin-left: 10px;
+  
+}
+.box_img{
+    width: 6em;
+   
+}
+.box_img1{
+    width: 3em;
+    height: 7em;
+   
+}
+.blue{
+    color: rgb(97, 81, 235);
+    text-align:center;
+    width: 20em;
+    margin-left: auto;
+  margin-right: auto;
+    
+}
+.boxsfer{
+    width: 100px;
+    height:30px ;
+    border-radius:3px;
+    background-color: #ecef19;
+    /* margin: 0; */
+    padding-bottom: 0%;
+     
+   
+}
+.flex1{
+    display: flex;
+    background-color: #2154d6;
+    padding-left: 200px;
+    padding-top: 10px;
+    padding-right: 50px;
+    
+ 
+}
+.block1{
+    display: block;
+    text-align:center;
+    margin-top: 20px;
+    padding-left: 300px;
+    padding-bottom: 30px;
+    width: 900px;
+
+}
+
+.blue1{
+    background-color: rgb(87, 140, 174);
+    text-align:center;
+    width: 100%;
+  display: block;
+  margin: 0;
+  padding-right:1em;
+    
+}
+.d{
+    margin-left: 45%;
+  margin-right: auto;
+}
+.R{
+   display:flex;
+   padding-left: 30px;
+   margin-left: 100px;
+    padding-top: 50px;
+    padding-right: 50px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap:150px;
+    line-height: 1.8em;
+}
+
+
+
+
+</style>
+<body class="container">
+    <div class="navbar">
+        <div>
+            <img  class="imglogo" src="https://th.bing.com/th/id/OIP.UwQv_oG_VwKBpECbykNG2AHaHa?pid=ImgDet&rs=1"  >
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li class="navlinks li"><a class="navlinks a" href="#">Conseil</a></li>
+                <li class="navlinks li"  ><a class="navlinks a" href="#" style="color:rgb(15, 26, 45)">Acceuil</a></li>
+               <li class="navlinks li"><a  class="navlinks a"href="#">عربي</a></li>
+            </ul>
+        </div>
+
+    </div>
+    <div class="sfer">
+<h2 class="A"> La derniere info medical</h2>
+<p class="zrek" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas praesentium laudantium voluptatibus esse at impedit quidem aspernatur tenetur rem voluptate.</p>
+    </div>
+    <div class="flex mwith">
+        <div><img src="Group_80.png" width="100%" height="450px"></div>
+        <div class="block"> 
+             <div> <h2 class="zrek">Vous pensez avoir ete expose au Coronavirus COVID-19 et avez des symptomes?</h2></div>
+            
+             <div><img  src="leftie.png"width="100px" height="100px"></div> 
+            
+            <div><p font-size="30px">je reste vigilant?<br>
+                je programme une telecnsultation?<br>
+                j'appelle le 15?<br>
+                Faites le test pour repondre en citoyen<br>
+                eclaire selon vos symptomes.
+            </p></div>
+            
+            <div> <button class="button-6" role="button"> Demarer le test</button></div>
+         </div>
+    </div>
+    <div>
+        <h2 class="zrek">Quels sont les symptomes a surveiller?</h2>
+        <div class="wrapper">
+            <div class="box a">
+                <img class="box_img1"  src="fievre.png">
+                <h3>Toux et maux de gorge</h3>
+            </div>
+            <div class="box b">
+                <img class="box_img" src="2.png">
+                <h3>Toux et maux de gorge</h3>
+            </div>
+            
+            <div class="boxd">
+                <img class="box_img" src="3.png">
+                <h3> Nausee et vomissement</h3>
+            </div>
+            <div class="boxe">
+                <img class="box_img" src="4.png">
+                <h3>Toux et maux de gorge</h3>
+            </div>
+          </div>
+        </div>
+
+        <div><h2 style="color:white ;">Recommendations officielles</h2> </div>
+    <div class="flex1">
+        
+        <div style="padding-top:0px ;" ><h4 style="color:black ;">Si vous pensez etre malade</h4>
+
+        
+        <p style="color:rgb(253, 252, 252) ;" >
+            
+        evitez les espaces publiques<br>
+        ne rendez pas visite aux personees fragiles.<br>
+        evitez de sortir de chez.<br>
+        Respecter les mesures barriere(lavage de main,masque).<br>
+        Surveiller vos symptomes,l'evolution de votre temperature.<br>
+        Corporel et recherchez un avis medical.
+      
+    </p>
+        
+        </div>
+        <div class="block1">
+            <div><h3 style="color:rgb(215, 230, 8); height:5 px;" > Apple gratuit <br> <br> <br></h3></div>
+        
+        
+      <div style="padding-left: 197px; margin-top: 10px;"> <p class="boxsfer" style="color:#2154d6; "> 080 100 47 47 <br> <br></p></div>
+      <div><p style="text-decoration: yellow underline; color: #fff; height:60 px;">www.sante.gov.ma</p></div>
+    </div>
+</div>
+<div class="blue1">
+    <div><h2 style="color:aqua;margin:0;"> Vous pensez avoir ete expose au coronavirus et avez des symptomes?</h2></div>
+
+<div><img  src="leftie.png"width="75px" height="75px"></div> 
+<div> <button class="button-6" role="button"> Demarer le test</button></div>
+         </div>
+         <div><img class="d" src="https://th.bing.com/th/id/OIP.UwQv_oG_VwKBpECbykNG2AHaHa?pid=ImgDet&rs=1" width=200PX height=200PX > </div>
+<div class="R">
+
+<div style="text-decoration:none ;">
+    <a href="#">عربي</a>
+    <a href="#">Acceuil</a>
+    <br>
+    <a href="#">Conseil</a>
+</div>
+<div style="line-height: 1.8em">
+    
+    <h2 style="color:rgb(66, 124, 156);">Contact utile</h2>
+<div> chiffres economique"Alo epidemie vigilance </div>
+<div style="color:green ; font-size:14px; font: weight 10px; "><bold>080 100 47 47</bold></div>
+<div> Aide medical urgente<br></div>
+<div style="color:green ; font-size:14px"><bold>144</bold></div>
+
+</div>
+<div> <p style="color: grey;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sit nulla labore!<BR> Esse facilis voluptate, <br>aspernatur velit reprehenderit quaerat, ratione quas quia sed ipsum temporibus porro <br>laudantium architecto accusamus magni!</p></div>
+
+</div>
+
+</body>
+</html>

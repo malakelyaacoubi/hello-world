@@ -1,0 +1,200 @@
+body{
+    background:url(' dow.jpg') no-repeat;
+    background-size: cover;
+    font-family: 'Indie Flower', cursive;
+    /* width: 100px; */
+    padding-LEFT: 100PX;
+    padding-TOP: 200PX;
+     
+}
+.flexe{
+    display: flex;
+    flex-wrap: wrap;
+     gap: 70px;
+
+}
+
+.titre{
+    color: white;
+    font-weight: 100;
+    
+}
+.button-6 {
+    align-items: center;
+    background-color: #740e9d;
+    border: 1px solid rgba(120, 78, 218, 0.1);
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(251, 248, 248, 0.85);
+    cursor: pointer;
+    display: inline;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 2.25;
+    margin-bottom: 10px;
+    min-height: 3rem;
+    /* padding: calc(.1075rem - 1px) calc(10rem - 10px); */
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: 500px;
+    height: 50px;
+  }
+  
+  .button-6:hover,
+  .button-6:focus {
+    border-color: rgb(16, 15, 15);
+    box-shadow: rgb(14, 14, 15) 0 4px 12px;
+    color: rgba(9, 9, 9, 0.65);
+  }
+  
+  .button-6:active {
+    background-color: #3585c3;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgb(23, 157, 70) 0 2px 4px;
+    color: rgb(81, 23, 226);
+    
+  }
+  .button-4 {
+    align-items: center;
+    background-color: #2ca208;
+    border: 1px solid rgba(120, 78, 218, 0.1);
+    border-radius:10px;
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(251, 248, 248, 0.85);
+    cursor: pointer;
+    display: inline;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    line-height: 1.25;
+    min-height: 3rem;
+    /* padding: calc(.1075rem - 1px) calc(10rem - 10px); */
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+    margin: 40px;
+    margin-left: 0px;
+    margin-TOP: 10px;
+    width: 500px;
+    height: 50px;
+  }
+  
+  .button-4:hover,
+  .button-4:focus {
+    border-color: rgb(16, 15, 15);
+    box-shadow: rgb(14, 14, 15) 0 4px 12px;
+    color: rgba(9, 9, 9, 0.65);
+  }
+  
+  .button-4:active {
+    background-color: #3585c3;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgb(23, 157, 70) 0 2px 4px;
+    color: rgb(81, 23, 226);
+    margin-right: 400px;
+    
+  }
+  .blocki{
+display: block;
+background-color:white;
+width: 493px; ;
+height: 500px;
+box-shadow: rgba(0, 0, 0, 1) 0 1px 3px 0; ;
+border: 3px solid rgba(120, 78, 218, 0.1);
+border-radius:10px;
+align-items: center;
+justify-content: center;
+
+
+
+  }
+  .t9ssima{
+    display: block;
+    margin-bottom: 20%;
+    margin-TOP: 10px;
+    padding-bottom: 10px;
+  }
+
+
+.form__group {
+  position: relative;
+  padding:  100px 0 0;
+  margin-top: 10px;
+  width: 100%;
+  align-items: center;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  font-size: 1.3rem;
+  color: rgb(7, 7, 7);
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+  align-items: center;
+  cursor: text;
+    top: 20px;
+}
+
+ .form__label {
+  position: absolute;
+  top: 0;
+  display: block;
+  transition: 0.2s;
+  font-size: 1rem;
+  color: gray;
+}
+
+.form__field:focus {
+  ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 1rem;
+    color: $primary;
+    font-weight:700;    
+  }
+  padding-bottom: 6px;  
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, $primary,$secondary);
+  border-image-slice: 1;
+}
+/* reset input */
+.form__field{
+  &:required,&:invalid { box-shadow:none; }
+}
+/* demo */
+body {
+  font-family: 'Poppins', sans-serif; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: 1.5rem;
+  background-color:#222222;
+}
+
+
+  

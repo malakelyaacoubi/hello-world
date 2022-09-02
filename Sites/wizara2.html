@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wizara</title>
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+body{
+    margin: auto;
+    padding: auto;
+    background-color:white;
+
+    
+}
+
+.test{
+    display: flex;
+    justify-content: space-between;
+    background: url('./Merged\ bar-57.svg') no-repeat ;
+    background-size: cover;
+    align-items: center;
+    padding: 30px;
+    font-family: "Montserrat",sans-serif;
+    word-spacing:30px ;
+    font-size:20px;
+    transform: uppercase;
+
+}
+
+select{
+    appearance: none;
+    cursor:pointer;
+    border: solid 2px  black;
+    border-radius: 6px;
+    all:unset;
+    cursor:pointer;
+    border: solid 2px  black;
+    border-radius: 6px;
+    width: 100px;
+    appearance: none;
+    background: url(" Icon material-language.svg") 90% / 20% no-repeat transparent;
+}
+    
+a{
+    text-decoration: none;
+}
+.p1{
+    font-family: "Montserrat",sans-serif;
+    padding:auto;
+    margin-top:0;
+    display: grid;
+    background-color: rgb(250, 210, 65);
+    text-align: center;  
+    font-weight: bold;
+    color:rgb(40, 66, 131) ;
+    line-height: 250%;
+
+}
+
+#p2{
+   color:   black;
+}
+
+.title1{
+    text-align: center;
+    color:rgb(40, 66, 131) ;
+    font-family: "Montserrat",sans-serif;
+    
+}
+.container{ 
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: 2fr 2fr 2fr; */
+    align-items: center;  
+    font-family: "Montserrat",sans-serif;
+}
+.item{
+    align-self :center ;
+    justify-self : center;
+    font-family: "Montserrat",sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+@media only screen and (max-width : 1200px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width : 1000px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media only screen and (max-width : 800px){
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+</style>
+<body>
+    <header class="test">
+        <div>
+            <img class="logo" src="logo.jpeg" alt="logo">
+        </div>
+        <div>
+            <a href="#">acceuil</a>
+            <a href="#">conseil</a>
+            <a href="#">
+                <select name="language" class="testbutton">
+                    <option value="عربي">عربي</option>
+                    <option value="français">فرنسي</option>
+                    <option value="enlish">انجليزي</option>
+                </select>
+            </a>
+        </div>
+    </header>
+<div class="p1">
+    <p><span id="p2">LA DERNIÈRE INFO MÉDICALE</span><br>
+    La prise d'anti-inflammatoires(ibuprofène,cortisone...) pourrait être un facteur<br>
+    d'aggravation de l'infection.En cas de fièvre, prenez du paracétamol.<br>
+    N'arrêtez pas votre traitement ! Consultez votre médecin ou votre pharmacin.</p>
+</div>
+
+<div>
+    <h1 class="title1">Comment se protéger et protéger<br> les autres au quotidien?</h1>
+    <div class="container">
+        <div class="item">
+            <img src="Calque -5.png">
+            <p>Saluez sans serrer la <br>main,n'embrassez <br>personne</p>
+        </div>
+        <div class="item">
+            <img src="Calque -4.png">
+            <p>Lavez-vous très<br> régulièrement les<br> mains</p>
+        </div>
+        <div class="item">
+            <img src="Calque -18.png">
+            <p>Portez un masque si <br>vous êtes malade.</p>
+        </div>
+        <div class="item">
+            <img src="cough-svgrepo-com.png">
+            <p>Tousez ou éternuez<br>dans votre coude ou<br> dans un mouchoir </p>
+        </div>
+        <div class="item">
+            <img src="Fichier -1.png">
+            <p>évitez de toucher les <br>yeux ,bouche, nez</p>
+        </div>
+        <div class="item">
+            <img src="Calque -6.png">
+            <p>évitez les <br>rassemblements</p>
+        </div>
+    </div>    
+</div>
+
+
+
+</body>
+</html>

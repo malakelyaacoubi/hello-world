@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+body{
+    margin: auto;
+    padding: auto;
+    background-color:white;
+
+    
+}
+
+.test{
+    display: flex;
+    justify-content: space-between;
+    background: url('./Merged\ bar-57.svg') no-repeat ;
+    background-size: cover;
+    align-items: center;
+    padding: 30px;
+    word-spacing:30px ;
+    font-size:20px;
+    transform: uppercase;
+}
+select{
+    appearance: none;
+    cursor:pointer;
+    border: solid 2px  black;
+    border-radius: 6px;
+    all:unset;
+    cursor:pointer;
+    border: solid 2px  black;
+    border-radius: 6px;
+    width: 100px;
+    appearance: none;
+    background: url(" Icon material-language.svg") 90% / 20% no-repeat transparent;
+}
+    
+a{
+    text-decoration: none;
+}
+.p1{
+    padding:auto;
+    margin-top:0;
+    display: grid;
+    background-color: rgb(250, 210, 65);
+    text-align: center;  
+    font-weight: bold;
+    color:rgb(40, 66, 131) ;
+    line-height: 250%;
+
+}
+
+#p2{
+   color:   black;
+}
+
+.title1{
+    text-align: center;
+    color:rgb(40, 66, 131) ;
+    
+}
+.container{ 
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;  
+}
+.item{
+    align-self :center ;
+    justify-self : center;
+    font-weight: bold;
+    text-align: center;
+}
+@media only screen and (max-width : 1200px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+        font-size: larger;
+    }
+}
+@media only screen and (max-width : 1000px){
+    .container{
+        grid-template-columns: repeat(2, 1fr);
+        font-size: medium;
+
+    }
+}
+@media only screen and (max-width : 800px){
+    .container{
+        grid-template-columns: repeat(1, 1fr);
+        font-size: small;
+
+    }
+}

@@ -1,0 +1,94 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,500&display=swap');
+body{
+   
+    padding: auto;
+    background-color:white;
+    
+}
+header{
+    padding-top: 0;
+    background: url('th.jpg') no-repeat  100% 100%;
+    background-size: COVER;}
+.test{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Montserrat",sans-serif;
+    word-spacing:7px ;
+    font-size:20px;
+    transform: uppercase;
+}
+.titre{
+    font-family:  Indie Flower;
+    font-size: 60PX;
+    color: rgb(235, 239, 243);
+    padding-top: 5em;
+    margin-left: 6em;
+    letter-spacing: 7px;
+    border-top:0;
+    margin-block-start: 0;
+
+} 
+
+a{
+    text-decoration: none;
+    color: rgb(250, 246, 246);
+
+}
+
+.font{
+    align-items: center;
+    margin-left: 400px;
+    margin-top: 80px;
+    padding-top: 0px;
+    margin-bottom: 100px;
+    font-weight: 50;
+    display: block;
+}
+
+
+.button-6 {
+    align-items: center;
+    background-color: #e2237f;
+    border: 1px solid rgba(242, 10, 142, 0.1);
+    border-radius:0px;
+    box-shadow: rgba(0, 0, 0, 1) 0 1px 3px 0;
+    box-sizing: border-box;
+    color: rgba(251, 248, 248, 0.85);
+    cursor: pointer;
+    display: inline;
+    font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    justify-content: center;
+    min-height: 3rem;
+    padding: calc(.1075rem - 1px) calc(10rem - 10px);
+    position: relative;
+    text-decoration: none;
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+    width: auto;
+  }
+  
+  
+  .button-6:hover,
+  .button-6:focus {
+    border-color: rgb(16, 15, 15);
+    box-shadow: rgb(14, 14, 15) 0 4px 12px;
+    color: rgba(243, 238, 238, 0.65);
+  }
+  
+
+  .button-6:active {
+    background-color: #3585c3;
+    border-color: rgba(0, 0, 0, 0.15);
+    box-shadow: rgb(23, 157, 70) 0 2px 4px;
+    color: rgb(81, 23, 226);
+    
+  }
+  
